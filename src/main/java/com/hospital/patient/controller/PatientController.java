@@ -31,6 +31,9 @@ public class PatientController {
     public ResponseEntity savePatient(@RequestBody Patient patient){
         return ResponseEntity.ok(patient);
     }
+    public void helloworld(){
+
+    }
 //    @GetMapping("/print-name")
 //    public String printPatientName(){
 //        return patientService.printName("Rami");
